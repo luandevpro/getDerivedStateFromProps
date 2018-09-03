@@ -32,14 +32,6 @@ class StockPrice extends Component{
          }
       }
    }
-   getSnapshotBeforeUpdate(props,state){
-      return  {
-         x: 1
-      }
-   }
-   componentDidUpdate(){
-      console.log("1")
-   }
    showIcon = (direction,color)=> {
       switch(direction){
          case 'up':
